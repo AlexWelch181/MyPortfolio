@@ -1,0 +1,74 @@
+body {
+    font-family: Consolas;
+    background-color: #373F51;
+}
+
+.content {
+    padding: 5px;
+    text-align: center;
+    background: #A9BCD0;
+    color: #373F51;
+}
+
+.content input{
+    margin-bottom: 20px;
+}
+
+.content label{
+    display: block;
+}
+
+.content button{
+    border: none;
+    background-color: #373F51;
+    padding: 20px;
+    color: white;
+}
+
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #58A4B0;
+    color: white;
+}
+
+.header h1{
+    font-size: 40px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #DDD;
+    color: black;
+}
+
+.footer {
+    text-align: center;
+    background-color: #58A4B0;
+    display: block;
+    color: white;
+    padding: 20px;
+}
+
+#total {
+    background-color: white;
+    border: 1px solid;
+    width: 200px;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+}
